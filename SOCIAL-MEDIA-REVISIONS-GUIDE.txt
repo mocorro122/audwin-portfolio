@@ -1,0 +1,14 @@
+SOCIAL MEDIA REVISE MANAGEMENT - IMAGE GUIDE
+
+The section now uses images only. No MP4 video is required.
+
+Replace images inside:
+assets/images/social-media-revisions/project-01/
+through
+assets/images/social-media-revisions/project-10/
+
+For each project:
+- cover.svg = image shown on the portfolio card
+- 1.svg to 5.svg = images shown inside the popup gallery
+
+You may use PNG, JPG, WEBP, or SVG files. If you change the file extension or filename, update the matching path in script.js.

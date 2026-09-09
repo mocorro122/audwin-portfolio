@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://audwinportfolio.online/sitemap.xml

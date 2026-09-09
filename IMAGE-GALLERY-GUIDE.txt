@@ -1,0 +1,31 @@
+HOW TO ADD UI/UX, GRAPHIC DESIGN, AND SOCIAL MEDIA IMAGES
+
+1. Open the assets/images folder.
+
+2. Choose the section:
+   assets/images/uiux/
+   assets/images/graphic-design/
+   assets/images/social-media/
+
+3. Each section contains project-01 through project-10.
+
+Example for the first UI/UX project:
+   assets/images/uiux/project-01/
+
+4. Replace these files with your own images:
+   cover.svg = thumbnail shown on the main portfolio card
+   01.svg to 05.svg = images shown inside the modal gallery
+
+5. You may use JPG, PNG, WEBP, or SVG. When changing the file extension or filename,
+   update the matching path in script.js.
+
+Example:
+   image: "assets/images/uiux/project-01/cover.jpg",
+   images: [
+     "assets/images/uiux/project-01/01.jpg",
+     "assets/images/uiux/project-01/02.jpg",
+     "assets/images/uiux/project-01/03.jpg"
+   ],
+
+6. Add or remove paths inside the images array to control how many pictures appear.
+   Previous, Next, thumbnails, counter, keyboard arrows, swipe, and zoom work automatically.
